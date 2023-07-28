@@ -10,7 +10,7 @@ const Navigation = () => {
             lg:p-3 lg:m-2
             ">
             <img width={100} src={Brand} alt="" />
-            <ul className="flex flex-row gap-8 text-sm text-zinc-800">
+            <ul className="flex flex-row gap-8 text-sm">
                 <li className="hover:text-yellow-400">
                     <a href="#">Home</a>
                 </li>
@@ -27,7 +27,7 @@ const Navigation = () => {
                     <a href="#">Contact</a>
                 </li>
             </ul>
-            <button className="bg-yellow-400 text-sm lg:p-2 rounded-md ">
+            <button className="bg-yellow-400 text-sm lg:p-3 rounded-md ">
                 Get Started
             </button>
             </div>
